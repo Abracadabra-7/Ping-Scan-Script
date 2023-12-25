@@ -14,32 +14,27 @@ To use this script, follow these steps:
 1. **Clone the repository:**
 
    
-bash
-   git clone <repository_url>
+   `git clone https://github.com/Abracadabra-7/Ping-Scan-Script`
    
 2. **Navigate to the script directory:**
 
    
-bash
-   cd ping-scan-script
+   `cd ping-scan-script`
    
 3. **Make the script executable:**
 
    
-bash
-   chmod +x ping_scan.sh
+   `chmod +x ping_scan.sh`
    
 4. **Run the script by passing an IP address as an argument:**
 
    
-bash
-   ./ping_scan.sh <ip_address>
+   `./ping_scan.sh <ip_address>`
    
    Replace `` with the desired IP address range to scan. For example, to scan the IP addresses ranging from 192.168.0.1 to 192.168.0.254:
 
    
-bash
-   ./ping_scan.sh 192.168.0
+   `./ping_scan.sh 192.168.0`
    
 5. **The script will initiate the ping scan and store the results in a timestamped file named `ping_results_.txt`.**
 

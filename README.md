@@ -2,6 +2,8 @@
 
 This script performs a ping scan on a specific IP address range. It uses the parallel command to run the ping commands concurrently, improving the scanning speed.
 
+![GitHub](https://img.shields.io/github/last-commit/Abracadabra-7/Ping-Scan-Script)
+
 ## Prerequisites
 
 - Linux environment
